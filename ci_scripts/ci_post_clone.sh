@@ -12,9 +12,4 @@ echo ">>> INSTALL DEPENDENCIES"
 gem install cocoapods --install-dir $GEM_HOME
  
 echo ">>> INSTALL PODS"
-pod install## ci_post_clone.sh
-
-#!/bin/sh
-
-brew install cocoapods
 pod install
